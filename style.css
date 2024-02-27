@@ -1,0 +1,120 @@
+
+body{
+    background-color: #2F2E41 ;
+    margin:0px;
+    height: 100%;
+
+
+}
+
+
+nav{
+    width: 1083px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto 50px ;
+    font-family: jetBrains Mono;
+    font-size: 14px;
+    color: #ffff;  
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 64px;
+}
+
+nav ul li a, footer a {
+    text-decoration: none;
+    color: #ffff;
+    font-weight: 300;
+}
+
+nav ul li a:hover, footer a:hover{
+    font-weight: 700;
+}
+
+.page{
+    width: 1092px;
+    padding: auto;
+    margin:auto;
+
+}
+
+
+main{
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 620px;
+    height: 250px;
+
+}
+
+section h1{
+
+    width: 620px;
+    margin: 0px;
+    text-align: center;
+    font-family: jetBrains Mono;
+    font-size: 36px;
+    line-height: 40px;
+    color: #ffff;
+
+}
+
+section p{
+    width: 604px;
+    margin: 0px;
+    text-align: center;
+    font-family: Open sans;
+    font-size: 16px;
+    line-height: 28px;
+    color: #C2C2C2;
+
+}
+
+section span{
+    color: #00BFA6;
+}
+
+.line{
+    width: 568px;
+    height: 0px;
+    border: solid 1px #00BFA6;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 568px;
+    height: 55px;
+    margin:100px auto 0px;
+
+
+
+
+    font-family: jetBrains Mono;
+    font-size: 14px;
+    line-height: 28px;
+    color: #ffff;
+}
+
+
+footer img{
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+}
